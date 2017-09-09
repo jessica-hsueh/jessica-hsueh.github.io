@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jessica.github.io/"/>
-  <updated>2017-09-07T13:21:06.546Z</updated>
+  <updated>2017-09-09T10:17:23.658Z</updated>
   <id>http://jessica.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Good boy, Good bye!</title>
+    <link href="http://jessica.github.io/2017/09/09/goodboy/"/>
+    <id>http://jessica.github.io/2017/09/09/goodboy/</id>
+    <published>2017-09-09T10:16:34.000Z</published>
+    <updated>2017-09-09T10:17:23.658Z</updated>
+    
+    <content type="html"><![CDATA[<p>Today I met a good boy and said good bye to him!</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Today I met a good boy and said good bye to him!&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="test" scheme="http://jessica.github.io/tags/test/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
