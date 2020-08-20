@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Jessica&#39;s Blog</title>
+  <title>Welcome to Jessica&#39;s Blog</title>
   
-  
+  <subtitle>This is xuejiachen.</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://jessica.github.io/"/>
-  <updated>2020-08-20T08:09:27.879Z</updated>
+  <updated>2020-08-20T11:45:38.930Z</updated>
   <id>https://jessica.github.io/</id>
   
   <author>
@@ -17,22 +17,49 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>关于python的scipy库安装后的报错问题 - module &#39;scipy.misc&#39; has no attribute &#39;imread&#39; or &#39;imresize&#39;</title>
+    <link href="https://jessica.github.io/2020/04/15/bug-python-scipy/"/>
+    <id>https://jessica.github.io/2020/04/15/bug-python-scipy/</id>
+    <published>2020-04-15T08:27:10.000Z</published>
+    <updated>2020-08-20T11:45:38.930Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h2><p>scipy库版本升级，imread,imresize是以前版本的scipy库中的方法。</p><a id="more"></a><h2 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h2><p><strong>重新安装较低版本的scipy库</strong>。（个人觉得也可以去研究一下scipy库的官方文档，最好是使用新版本提供的新函数，但是降低版本比较快）</p><p>目前最新版本应该是1.4.1。<br><strong>重新安装1.2.1版本</strong> - <strong>pip install scipy==1.2.1</strong>（看到有些用户提到也需要安装pillow，我已经安装过pillow 7.0.0 了，有未安装pillow且仍有bug的用户可以尝试下）</p><hr><p><em>以下步骤针对小白用户。</em></p><h2 id="查看已安装的库函数以及版本"><a href="#查看已安装的库函数以及版本" class="headerlink" title="查看已安装的库函数以及版本"></a>查看已安装的库函数以及版本</h2><p>我是在<strong>Anaconda集成环境</strong>下安装tensorflow的，个人觉得这个办法是相对简便的。下面提供三种方法：</p><ol><li><p>打开Anaconda Prompt，输入<strong>activate tensorflow</strong>进入tensorflow，再输入<strong>pip list</strong>即可查看。<br><img src="https://img-blog.csdnimg.cn/20200412211112836.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjM5MzkwMQ==,size_16,color_FFFFFF,t_70" alt="img1"></p></li><li><p>如果项目是在<strong>pycharm</strong>中建立的，可以直接在File - Settings - Project Interpreter中查看已安装的库以及安装新的库函数，但是安装新的库函数只能安装最新版本。<br><img src="https://img-blog.csdnimg.cn/20200412210918296.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjM5MzkwMQ==,size_16,color_FFFFFF,t_70" alt="img2"></p></li><li><p>打开Anaconda文件夹，按照envs - tensorflow - lib - site-packages顺序即可看到已安装的库。<br><img src="https://img-blog.csdnimg.cn/20200412211525775.png" alt="img3"></p></li></ol><h2 id="安装库函数"><a href="#安装库函数" class="headerlink" title="安装库函数"></a>安装库函数</h2><p>下面提供两种方法（针对bug只可用第一种）：</p><ol><li><p>打开Anaconda Prompt，输入<strong>activate tensorflow</strong>进入tensorflow，再输入<strong>pip install scipy==1.2.1</strong>即可安装。<br><img src="https://img-blog.csdnimg.cn/20200412210249121.png" alt="img4"></p></li><li><p>在上面查看库函数的第二种方法的pycharm界面也可安装最新版本库函数。<br><img src="https://img-blog.csdnimg.cn/20200412211624493.png" alt="img5"><br>点击+号在搜索框输入库名称即可安装。<br><img src="https://img-blog.csdnimg.cn/2020041221175419.png" alt="img6"></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;原因&quot;&gt;&lt;a href=&quot;#原因&quot; class=&quot;headerlink&quot; title=&quot;原因&quot;&gt;&lt;/a&gt;原因&lt;/h2&gt;&lt;p&gt;scipy库版本升级，imread,imresize是以前版本的scipy库中的方法。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="图像风格化" scheme="https://jessica.github.io/categories/%E5%9B%BE%E5%83%8F%E9%A3%8E%E6%A0%BC%E5%8C%96/"/>
+    
+    
+      <category term="code" scheme="https://jessica.github.io/tags/code/"/>
+    
+      <category term="python" scheme="https://jessica.github.io/tags/python/"/>
+    
+      <category term="deep learning" scheme="https://jessica.github.io/tags/deep-learning/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hello Blog</title>
     <link href="https://jessica.github.io/2017/09/16/new-article/"/>
     <id>https://jessica.github.io/2017/09/16/new-article/</id>
     <published>2017-09-16T02:34:57.000Z</published>
-    <updated>2020-08-20T08:09:27.879Z</updated>
+    <updated>2020-08-20T12:24:20.633Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="This-is-my-first-article"><a href="#This-is-my-first-article" class="headerlink" title="This is my first article."></a>This is my first article.</h1><blockquote><p>Markdown初体验</p></blockquote><ul><li><strong>sina weibo</strong><br><a href="https://weibo.com/p/1005053994306309/home?from=page_100505&amp;mod=TAB&amp;is_all=1#place" target="_blank" rel="external">click here</a></li><li><em>my photo</em><br><img src="https://wx4.sinaimg.cn/mw1024/ee144705ly1fq6j8pva6vj20u00u0mzn.jpg" alt="my photo"></li></ul><hr>]]></content>
+    <content type="html"><![CDATA[<h1 id="This-is-my-first-article"><a href="#This-is-my-first-article" class="headerlink" title="This is my first article."></a>This is my first article.</h1><blockquote><p>Markdown初体验</p></blockquote><a id="more"></a><ul><li><strong>sina weibo</strong><br><a href="https://weibo.com/p/1005053994306309/home?from=page_100505&amp;mod=TAB&amp;is_all=1#place" target="_blank" rel="external">click here</a></li><li><em>my photo</em><br><img src="https://wx4.sinaimg.cn/mw1024/ee144705ly1fq6j8pva6vj20u00u0mzn.jpg" alt="my photo"></li></ul><hr>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;h1 id=&quot;This-is-my-first-article&quot;&gt;&lt;a href=&quot;#This-is-my-first-article&quot; class=&quot;headerlink&quot; title=&quot;This is my first article.&quot;&gt;&lt;/a&gt;This is my fi
-      
+      &lt;h1 id=&quot;This-is-my-first-article&quot;&gt;&lt;a href=&quot;#This-is-my-first-article&quot; class=&quot;headerlink&quot; title=&quot;This is my first article.&quot;&gt;&lt;/a&gt;This is my first article.&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;Markdown初体验&lt;/p&gt;
+&lt;/blockquote&gt;
     
     </summary>
+    
+      <category term="life" scheme="https://jessica.github.io/categories/life/"/>
     
     
       <category term="life" scheme="https://jessica.github.io/tags/life/"/>
