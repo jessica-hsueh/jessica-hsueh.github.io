@@ -6,11 +6,11 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://jessica.github.io/"/>
-  <updated>2020-08-20T02:45:12.163Z</updated>
+  <updated>2020-08-20T07:05:01.003Z</updated>
   <id>https://jessica.github.io/</id>
   
   <author>
-    <name>Jessica</name>
+    <name>Xuejiachen</name>
     
   </author>
   
@@ -21,9 +21,9 @@
     <link href="https://jessica.github.io/2017/09/16/new-article/"/>
     <id>https://jessica.github.io/2017/09/16/new-article/</id>
     <published>2017-09-16T02:34:57.000Z</published>
-    <updated>2020-08-20T02:45:12.163Z</updated>
+    <updated>2020-08-20T07:05:01.003Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="This-is-my-first-article"><a href="#This-is-my-first-article" class="headerlink" title="This is my first article."></a>This is my first article.</h1>]]></content>
+    <content type="html"><![CDATA[<h1 id="This-is-my-first-article"><a href="#This-is-my-first-article" class="headerlink" title="This is my first article."></a>This is my first article.</h1><blockquote><p>Markdown初体验</p></blockquote><ul><li><strong>sina weibo</strong><br><a href="https://weibo.com/p/1005053994306309/home?from=page_100505&amp;mod=TAB&amp;is_all=1#place" target="_blank" rel="external">click here</a></li><li><em>my photo</em><br><img src="https://wx4.sinaimg.cn/mw1024/ee144705ly1fq6j8pva6vj20u00u0mzn.jpg" alt="my photo"></li></ul><hr>]]></content>
     
     <summary type="html">
     
@@ -34,6 +34,8 @@
     
     </summary>
     
+    
+      <category term="life" scheme="https://jessica.github.io/tags/life/"/>
     
   </entry>
   
