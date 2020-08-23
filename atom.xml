@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Welcome to Jessica&#39;s Blog</title>
   
-  <subtitle>This is xuejiachen.</subtitle>
+  <subtitle>This is Jiachen Xue.</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://jessica.github.io/"/>
@@ -10,7 +10,7 @@
   <id>https://jessica.github.io/</id>
   
   <author>
-    <name>Xuejiachen</name>
+    <name>Jiachen Xue</name>
     
   </author>
   
